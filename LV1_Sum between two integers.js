@@ -8,14 +8,16 @@
 function solution(a, b) {
     var answer = 0;
     
-    if(a>b){
+    if(a>b){ // a, b 대소 정렬
         var temp = b;
         b=a;
         a=temp;
     }
     
+    //시퀀스 생성
     const range = Array.from({ length: (b - a)+1}, (_, i) => a + i);
     
+    //합 구하기
     answer=range.reduce(sum);
     
     return answer;
