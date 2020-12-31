@@ -1,6 +1,6 @@
 /*
- * [DFS]
- * DFS 예제
+ * [BFS]
+ * BFS 예제
  */
 
 function solution() {
