@@ -41,6 +41,7 @@ function solution1() {
   const M = 3;
   const mArr = [5, 7, 9];
 
+  //1. set 자료형으로 변환
   const setN = new Set(nArr);
 
   let answer = [];
