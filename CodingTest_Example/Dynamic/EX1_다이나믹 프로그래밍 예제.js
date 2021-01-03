@@ -18,7 +18,7 @@ function solution() {
   return answer;
 }
 
-// 다이나믹 프로그래밍 1 (재귀)
+// 다이나믹 프로그래밍 1 (재귀:탑다운)
 function solution1() {
   let N = 1000;
   let fibonachiArr = Array.from({ length: N + 1 }, () => null);
@@ -39,7 +39,7 @@ function solution1() {
   return answer;
 }
 
-// 다이나믹 프로그래밍 2 (반복문) >> 가장 좋은 방법
+// 다이나믹 프로그래밍 2 (반복문:보텀업) >> 가장 좋은 방법
 function solution2() {
   let N = 1000;
   let fibonachiArr = Array.from({ length: N + 1 }, () => 0);
